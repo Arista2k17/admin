@@ -1,0 +1,704 @@
+<!DOCTYPE HTML>
+
+<script>
+document.getElementsByClassName("tablink")[0].click();
+
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].classList.remove("w3-light-grey");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.classList.add("w3-light-grey");
+  
+}
+</script>
+<style>
+.city {display:none}
+</style>
+
+<html>
+
+
+<!-- Mirrored from arista-schoolfest.000webhostapp.com/m/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2017 08:14:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Arista-2k17</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="1.ico/favicon-32x32.html">
+    <link rel="icon" type="image/png" sizes="96x96" href="1.ico/favicon-96x96.html">
+    <link rel="icon" type="image/png" sizes="16x16" href="1.ico/favicon-16x16.html">
+    <link rel="manifest" href="1.ico/manifest.html">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="1.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- webfonts -->
+    <!--<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+-->
+    <!-- webfonts -->
+    <!---- start-smoth-scrolling---->
+    <script async type="text/javascript" src="js/move-top.js"></script>
+    <script async type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+
+
+
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        if (screen.width > 1080) {
+            window.location = "../index-2.html";
+        }
+    </script>
+
+
+
+    <!-- container -->
+    <!-- header -->
+
+    <div id="home" class="header">
+        <div class="container">
+            <!-- top-hedader -->
+            <div class="top-header">
+                <!-- /logo -->
+                <!--top-nav---->
+                <div class="top-nav">
+                    <div class="navigation">
+                        <div class="logo">
+                            <h1><span>Arista</span>2k17</h1>
+                        </div>
+                        <div class="navigation-right">
+                            <span class="menu"><img src="../images/menu.png" alt=" " /></span>
+                            <nav class="link-effect-3" id="link-effect-3">
+                                <ul class="nav1 nav nav-wil" style="    background:rgba(23, 20, 20, 0.58);">
+                                    <li class="active"><a data-hover="Home" href="index.html">Home</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="About" href="#about">About Us</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="Services" href="#services">Technical Events</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="Experience" href="#work">Non-technical Events</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="Portfolio" href="#port">Workshops</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="Blog" href="#blogs">Registration</a>
+                                    </li>
+                                    <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- script-for-menu -->
+                            <script>
+                                $("span.menu").click(function() {
+                                    $("ul.nav1").slideToggle(300, function() {
+                                        // Animation complete.
+                                    });
+                                });
+                            </script>
+                            <!-- /script-for-menu -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /top-hedader -->
+                </div>
+
+
+
+                <div class="clearfix"> </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="about-left" style="height:380px; overflow: scroll;">
+            <div id="owl-demo1" class="owl-carousel owl-carousel2" >
+                <div class="item">
+                    <div class="about-left-grid">
+                        <center>
+                            <h2>Our College</h2>
+
+                        </center>
+                        <p>KGiSL Institute of Technology (KiTE),[1] is a private engineering college started in 2008 by Padmashri Dr. G. Bakthavathsalam, MS, FICS, FCCP, FAMS, FMMC Founder-Chairman of KG Hospital. It is located at Saravanampatti in Coimbatore, Tamil Nadu, India. The college has been approved by the All India Council for Technical Education , the National Assessment and Accreditation Council (NAAC), the National Board of Accreditation (NBA) and is affiliated to Anna University of Technology, Coimbatore.</p>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="about-left-grid">
+                        <center>
+                            <h2>Our Department</h2>
+
+                        </center>
+                        <p>The main objective of the KGiSL Institute of Technology is to provide industry embedded education and to mold the students for leadership in industry, government, and educational institutions; to advance the knowledge base of the engineering professions; and to influence the future directions of engineering education and practice. The ability to connect to the future challenges and deliver industry-ready human resources is a credibility that KGISL Group Institutions have progressively excelled at. Industry -readiness of its students is what will eventually elevate an institution to star status and its competitiveness in the job market. Choice of such an institution will depend on its proximity to industry, the relevance of its learning programmer to real-time industry and the active connect a student will have with industry professionals. KGiSL Institute of Technology is an industry-sponsored institution par excellence. Embedded in the environ of global design engineering and information technology entities-the aura of the institution radiated institute - industry culture and sensitivity. KiTE with its industry lineage will leverage the advantage of connecting to real world challenges. The institution is sponsored by KG information Systems (P) Limited- a global information technology enterprise with diverse interests in fashion , textiles, engineering , healthcare, finance and education. The educational programs in the college emphasize the understanding of fundamental principles and prepare an individual for a lifetime of learning and professional growth.</p>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="about-left-grid">
+                        <center>
+                            <h2>Our Fest</h2>
+
+                        </center>
+                        <p>ARISTA' 17 is the annual International Techno-Cultural Fest by the Department of Information Technology, KGiSL Institute of Technology, Coimbatore, in association with the Information technology Association, IT-RIOTZ . With it's amazing history, ARISTA has constantly broken records and its back in 2014, bigger than ever ! Join us in making HISTORY ..! Join us in the international extravaganza that is sure to set your senses on fire. Come, take part in Arista2K14. Make the choice that will make your life worthwhile !</p>
+
+                    </div>
+                </div>
+                <!--<div class="item">
+					                	<div class="about-left-grid">
+											<center><h2>Smart Nib</h2>
+											
+											</center>
+											<p>SmartNib is a talent test exam for high school students which is intended to enlighten them in the feilds of apptitude and english so that they can be exposed to university standards right from their schooling days 
+with all the support and encouragenment of our department we are very happy to announce the success of SmartNib.
+ </p>
+											
+										</div>
+					                </div>-->
+            </div>
+        </div>
+
+        <div class="clearfix"> </div>
+        <div class="clearfix"> </div>
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <script async src="js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo1").owlCarousel({
+                    items: 1,
+                    lazyLoad: false,
+                    autoPlay: true,
+                    navigation: false,
+                    navigationText: false,
+                    pagination: true,
+                });
+            });
+        </script>
+        <!-- Feedback -->
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo3").owlCarousel({
+                    items: 1,
+                    lazyLoad: false,
+                    autoPlay: true,
+                    navigation: false,
+                    navigationText: true,
+                    pagination: true,
+                });
+            });
+        </script>
+    </div>
+    <!-- /about -->
+
+
+    <!-- services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="service-head one text-center ">
+
+                <h3>Technical <span>Events</span></h3>
+                <span class="border two"></span>
+            </div>
+            <!-- services-grids -->
+            <div class="wthree_about_right_grids w3l-agile">
+
+
+
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/bash.jpg" width=150 height=150 />
+                    </div>
+                    <div class="col-xs-8 wthree_about_right_grid_right">
+                        <h4>WHAT’S BIG IN 2K17?</h4>
+<!-- ################################# POP UP ################################################# -->
+<div class="w3-container" >
+
+<button onclick="document.getElementById('id15').style.display='block'" class="w3-button w3-black" >View</button>
+
+<div id="id15" class="w3-modal">
+ <div class="w3-modal-content w3-card-4 w3-animate-zoom" >
+  <header class="w3-container w3-blue"> 
+   <span onclick="document.getElementById('id15').style.display='none'" 
+   class="w3-button w3-blue w3-xlarge w3-display-topright" >&times;</span>
+   <h2>WHAT’S BIG IN 2K17?</h2>
+  </header>
+
+  <div class="w3-bar w3-border-bottom" >
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'whatsbig')" >WHAT’S BIG IN 2K17?</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'imp_dates')">Important Dates</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'contact')">Contact</button>
+  </div>
+
+  <div id="whatsbig" class="w3-container city" style="display: block;">
+   <h1>WHAT’S BIG IN 2K17?</h1>
+   <p>•	Solo or team of maximum 4 participants allowed. <br>
+•	Only school students allowed.<br>
+•	No on-spot registration.<br>
+•	The participant should bring their own kit and exhibit their project presentation in their own cost.<br>
+•	Maximum of 20 minutes is provided for the participants to explain their Idea.<br>
+•	Decision of the judges will be final and binding. <br>
+</p>
+  </div>
+
+  <div id="imp_dates" class="w3-container city">
+   <h1>Important Dates</h1>
+   <p>•	Last date for Abstract Submission : 25th September, 2017: <br>
+	To : arista2k17@kgkite.ac.in with subject: Big Idea Submission <br>
+	Mail should include team details: name of student, name of college, mail and phone number. <br>
+•	Last date for Presentation Submission : 2nd September, 2017 :<br>
+	Shortlisted candidates will be informed via mail including payment details. <br>They will have to send their PowerPoint presentation to the same mail with subject: Big Idea presentation.<br>
+	Mail should include team details: name of student, name of college, mail and phone number. <br>
+	The presentation must contain snapshots/output of your project.<br>
+.</p>
+  </div>
+
+  <div id="contact" class="w3-container city">
+   <h1>Contact</h1>
+   <p>Staff Coordinator : Mr. Joel Anandraj, AP/IT <br>
+Student Coordinator : <br>
+1.	Mythily.D (IVyr)<br>
+2.	Himanshu (IIIyr)<br>
+3.	Madhumathi Rani (IIyr)<br>
+</p><br>
+  </div>
+
+  <div class="w3-container w3-light-grey w3-padding">
+   <button class="w3-button w3-right w3-white w3-border" 
+   onclick="document.getElementById('id15').style.display='none'">Close</button>
+<button class="w3-button w3-right w3-white w3-border">Register</button>
+  </div>
+ </div>
+</div>
+
+</div>
+
+<!-- ################################# / POP UP ################################################# -->
+
+                        <p>The Next Big Idea is our contribution to the world of entrepreneurship. Crazy ideas rule the universe. The world meant the achievers as idiots in the start. But the world itself believed those idiots and their rules later. Prove you’re an achiever to this world.
+	Send in your ideas and projects worth recognition. We’ll give you a platform to make your dreams come true.
+</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/6a.png" width=150 height=150 />
+                    </div>
+                    <div class=" wthree_about_right_grid_right">
+                        <h4>Trends talk</h4>
+<!-- ################################# POP UP [Trendz talk] ################################################# -->
+<div class="w3-container" >
+
+<button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black" >View</button>
+
+<div id="id02" class="w3-modal">
+ <div class="w3-modal-content w3-card-4 w3-animate-zoom" >
+  <header class="w3-container w3-blue"> 
+   <span onclick="document.getElementById('id02').style.display='none'" 
+   class="w3-button w3-blue w3-xlarge w3-display-topright" >&times;</span>
+   <h2>WHAT’S BIG IN 2K17?</h2>
+  </header>
+
+  <div class="w3-bar w3-border-bottom" >
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'whatsbig')" >WHAT’S BIG IN 2K17?</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'imp_dates')">Important Dates</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'contact')">Contact</button>
+  </div>
+
+  <div id="whatsbig" class="w3-container city" style="display: block;">
+   <h1>WHAT’S BIG IN 2K17?</h1>
+   <p>•	Solo or team of maximum 4 participants allowed. <br>
+•	Only school students allowed.<br>
+•	No on-spot registration.<br>
+•	The participant should bring their own kit and exhibit their project presentation in their own cost.<br>
+•	Maximum of 20 minutes is provided for the participants to explain their Idea.<br>
+•	Decision of the judges will be final and binding. <br>
+</p>
+  </div>
+
+  <div id="imp_dates" class="w3-container city">
+   <h1>Important Dates</h1>
+   <p><b>Last date for Abstract Submission : 25th September, 2017:<b> <br>
+•	To : arista2k17@kgkite.ac.in with subject: Big Idea Submission <br>
+•	Mail should include team details: name of student, name of college, mail and phone number. <br>
+•	Last date for Presentation Submission : 2nd September, 2017 :<br>
+•	Shortlisted candidates will be informed via mail including payment details. <br>They will have to send their PowerPoint presentation to the same mail with subject: Big Idea presentation.<br>
+•	Mail should include team details: name of student, name of college, mail and phone number. <br>
+•	The presentation must contain snapshots/output of your project.<br>
+.</p>
+  </div>
+
+  <div id="contact" class="w3-container city">
+   <h1>Contact</h1>
+   <p>Staff Coordinator : Mr. Joel Anandraj, AP/IT <br>
+Student Coordinator : <br>
+1.	Mythily.D (IVyr)<br>
+2.	Himanshu (IIIyr)<br>
+3.	Madhumathi Rani (IIyr)<br>
+</p><br>
+  </div>
+
+  <div class="w3-container w3-light-grey w3-padding">
+   <button class="w3-button w3-right w3-white w3-border" 
+   onclick="document.getElementById('id02').style.display='none'">Close</button>
+<button class="w3-button w3-right w3-white w3-border">Register</button>
+  </div>
+ </div>
+</div>
+
+</div>
+
+<!-- ################################# / POP UP ################################################# -->
+                        <p>Research is to see what everybody else has seen, and to think what nobody else has thought. This platform is to expose your talent and in-depth knowledge on your interested areas. Arista2k17 invites Papers from the Academic Community. Come, chill out the hearts of the people with your innovative presentation at Arista.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/code_vista.png" width=150 height=150 />
+                    </div>
+                    <div class=" wthree_about_right_grid_right">
+                        <h4>Code day </h4>
+                        <p>Code day challenges to test the geek in you, hosted by Arista team. First solve the problem, and then write the code. Learn to code, it teaches you how to think. Arista is calling the best coders to the biggest coding arena. Register and solve challenges to get recognized & win big prizes.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/4a.png" width=150 height=150 />
+                    </div>
+                    <div class=" wthree_about_right_grid_right">
+                        <h4>Back to Basics </h4>
+                        <p>There is no end to education. It’s not that you read a book, pass an examination, and finish with education. It is an ongoing journey to be carried with us, everyday throughout our lives”. Here is a talent hunt! It’s an ultimate test of intellectual ability and capacity. Come and compete with other talented brains and show that you are the most talented. </p>
+                        <!--<p>It consists of two rounds.<br />First Round:Participating teams have to find answers to a set of simple yet tricky objective type questions using their googling skills.<br />Second Round:The challenge becomes tougher and more tricker.In this,the selected team from the previous round compete against each other to score a maximum in order to ace the event.</p>-->
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/4a.png" width=150 height=150 />
+                    </div>
+                    <div class=" wthree_about_right_grid_right">
+                        <h4>Craftsman </h4>
+                        <p>Everything is designed. Few things are designed well. Good web design is about the character of the content and is obvious. Great design is transparent. Arista invites web designers who do it with &lt style &gt.</p>
+                        <!--<p>It consists of two rounds.<br />First Round:Participating teams have to find answers to a set of simple yet tricky objective type questions using their googling skills.<br />Second Round:The challenge becomes tougher and more tricker.In this,the selected team from the previous round compete against each other to score a maximum in order to ace the event.</p>-->
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/4a.png" width=150 height=150 />
+                    </div>
+                    <div class=" wthree_about_right_grid_right">
+                        <h4>AppMania</h4>
+                        <p>Mobile is the future. Professional designing, developing and customizing diverse android based solutions. Bring a change for good. Send your applications to Arista. The world is waiting.</p>
+                        <!--<p>It consists of two rounds.<br />First Round:Participating teams have to find answers to a set of simple yet tricky objective type questions using their googling skills.<br />Second Round:The challenge becomes tougher and more tricker.In this,the selected team from the previous round compete against each other to score a maximum in order to ace the event.</p>-->
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid">
+                    <div class="col-xs-4 wthree_about_right_grid_left">
+                        <img src="../images/ppt.png" width=150 height=150 />
+                    </div>
+                    <div class="col-xs-8 wthree_about_right_grid_right">
+                        <h4>Spot the bug </h4>
+                        <p>Debugging is finding and reducing the bugs or defects in a computer program and making it behave as expected. When debugging, novices insert corrective code; Experts remove defective code. Come and show your logical, mathematical and basic programming skills and be crowned as an Expert.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+
+        <!-- services-grids -->
+    </div>
+
+    <!-- services -->
+
+
+
+    <!--work-experience-->
+    <div id="work" class="work">
+        <div class="container">
+            <div class="service-head text-center">
+                <h4>What we do</h4>
+                <h3>Non-technical <span>Events</span></h3>
+                <span class="border one"></span>
+            </div>
+            <div class="time-main w3l-agile">
+                <div class="col-md-6 year-info">
+
+                </div>
+                <ul class="col-md-6 timeline">
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Director’s chair </h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lights-Camera-Action-Take one, these are the few words used in film fraternity from ages .Ever wanted to make something that captures everyone’s imagination which could be film or animation, that which shocks or entertains, that which makes people laugh and that which makes them cry?
+                                    <br />Walk ahead. We’ll give you a platform to express your talents. Experience the biggest short film festival in Arista. </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Pixel Perfect </h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Creativity involves breaking out of established patterns in order to look at things in a different way. The camera is an instrument that teaches people how to see without a camera.
+                                    <br>An event dedicated to lensman out there. Enjoy the unparalleled beauty of KGiSL campus and capture the spirit and essence of the fest.</p>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li>
+                        <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Game Zone</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Failure doesn’t mean the game is over, it means try again with experience. If you are a gamer, you don’t need to get a life, you have lots of lives. Stay slow, go fast; Kill first, die last; one shot, one kill; No luck, All Skill.
+                                    <br>Arista calls the Gamers. Participate and win.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">VFX Artist </h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Animation is not the art of drawings that move, but the art of movements that are drawn.
+                                    <br>Enter Arista! This is your chance to show off your animation skills. The Animation Contest is open. Push your skills and show the world what you have. You may win some great prizes as well!</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//work-experience-->
+    <!-- top-grids -->
+    <div class="portfolio" id="port">
+        <div class="container">
+            <div class="service-head text-center">
+                <h4>Your Fun Time</h4>
+                <h3><span>Culturals</span></h3>
+                <span class="border one"></span>
+            </div>
+            <div class="news-grid w3l-agile">
+                <div class="col-md-6 news-img">
+                    <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="../images/a.png" alt=" " class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-6 news-text">
+                    <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Make your Move</a></h3>
+
+                    <p>Dance to express, not to impress. It is a conversation between body and soul that makes music visible. Arista provides four categories: Solo, Group, B-Boy Battle and Adaptune.
+                        <br>Brace yourself to dream on your feet.</p>
+
+
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="news-grid w3l-agile">
+                <div class="col-md-6 news-img">
+                    <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="../images/b.png" alt=" " class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-6 news-text">
+                    <h3> <a href="#" data-toggle="modal" data-target="#myModal1">The Voice Karaoke</a></h3>
+
+                    <p>He who sings frightens away his ills. Throw your soul through every open door, count your blessings to find what you look for. Arista gives you a stage. Melt the huge crowd with your voice. </p>
+
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="news-grid w3l-agile">
+                <div class="col-md-6 news-img">
+                    <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="../images/c1.png" alt=" " class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-6 news-text">
+                    <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Music war </a></h3>
+
+                    <p>Where words fail, Music speaks. Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.
+                        <br>Arista is welcoming all the maestros.</p>
+
+
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="news-grid w3l-agile">
+                <div class="col-md-6 news-img">
+                    <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="../images/c1.png" alt=" " class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-6 news-text">
+                    <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Who is in you? (Mimicry)</a></h3>
+
+                    <p>Most people are other people. Their thoughts are someone else’s opinions. Their lives are a mimicry. Show who is in you at Arista.</p>
+
+
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- //blog-pop-->
+    <div class="blog" id="blogs" style="padding:0;border:0;background:#104766;">
+
+        <iframe id="blogs" src="register/index.html" scrolling=no style="width:100%;"></iframe>
+
+    </div>
+
+    <!-- /header -->
+    <div class="footer" id="contact" style="padding:0;">
+        <div class="container">
+            <div class="service-head one text-center">
+                <h4>CONTACT ME</h4>
+                <h3>GET <span>IN TOUCH WITH US</span></h3>
+                <span class="border two"></span>
+            </div>
+            <div class="mail_us">
+                <div class="col-md-6 mail_left">
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            <h4>Contact By Email & facebook</h4>
+                            <ul>
+                                <li>Mail: <a href="mailto:arista2k17@gmail.com">arista2k17@gmail.com</a>
+                                </li>
+                                <li>facebook: <a href="www.facebook.com/arista2k17">www.facebook.com/arista2k17</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            <h4>Contact By Phone</h4>
+                            <ul>
+                                <li>K.Dharsan +91-1234567890</li>
+                                <li>M.Jahaziel Sam +91-1234567890</li>
+                                <li>B.Andrine +91-1234567890</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            <h4>Looking For Address</h4>
+                            <ul>
+                                <li>Address:KGiSL Institute of Technology,</li>
+                                <li> Saravanampatty, Coimbatore, Tamil Nadu 641035</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
+    <script type="text/javascript" src="js/iframeResizer.js"></script>
+    <script type="text/javascript">
+        iFrameResize({
+            //log                     : true,                  // Enable console logging
+            resizedCallback: function() { // Callback fn when message is received
+                (function() {
+                    0
+                });
+            }
+        });
+    </script>
+    <!-- //footer -->
+    <!-- /container -->
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--end-smooth-scrolling-->
+    <!-- //for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from arista-schoolfest.000webhostapp.com/m/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2017 08:15:14 GMT -->
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	
+
+<!-- Mirrored from arista-schoolfest.000webhostapp.com/register/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2017 08:29:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>registration</title>
+		
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.html"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="nl-blurred">
+		<div class="container demo-1">
+			<!-- Top Navigation -->
+			
+			<!--<header>
+				<h1>Registration Form <span style="color:#aaa;font-weight:bold;">click on underlined text to fill the form</span></h1>	
+			</header>
+			<div class="main clearfix">
+				<form id="nl-form" class="nl-form" name="register" action="http://www.ityukta.in/register/php/rr.php"  method="post">
+					I, <input type="text" name="name"  placeholder="name" data-subline="For example: <em>phani</em> or <em>sri devi</em>" />
+have been studying at <input type="text" id="f1" name="college"  placeholder="College" data-subline="For example: <em>jntuk ucev</em> or <em>AU</em>" /> of 	
+<select name="year_of_study" id="f2">
+						<option value="">year of study</option>
+						<option value="first">first</option>
+						<option value="second">second</option>
+						<option value="third">third</option>
+						<option value="fourth">fourth</option>
+					</select> year B.TECH/B.E/M.TECH/MCA				
+					<select name="department" id="f3" value="" >
+						<option value="">department</option>
+						<option value="Information Technology
+						">Information Technology</option>
+						<option value="Mechanical Engineering
+						">Mechanical Engineering</option>
+						<option value="Computer Science Engineering">Computer Science Engineering</option>
+						<option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+						<option value="Eletrical and Electronics Engineering">Eletrical and Electronics Engineering</option>
+						<option value="Civil Engineering">Civil Engineering</option>
+						<option value="Others">Others</option>
+					</select> department.<br />I belong to
+<select name="gender"  id="f4">
+						<option value="1" selected>Gender</option>
+						<option value="Male">Male</option>
+<option value="Female">Female</option></select> category. You can contact me through <input type="email" name="email" value="" placeholder="email" data-subline="For example: <em>abc@gmail.com</em> or <em>kvc@gmail.com</em>" id="f5" /> and by <input id="f6" type="number" name="phone" value="phone" placeholder="phone" data-subline="For example: <em>9999999999</em>" />.I <select name="hostel" id="f7" ><option value="" selected>hostel</option><option value="want">want</option>
+<option value="don't want">don't want</option></select> accomodation in hostel.I want  to attend to these <select id="f8" name="workshops" multiple><option value="" selected >workshops</option><option value="3d">3D Game Designing with Virtual Reality</option><option value="R">R Programming</option><option value="d">Discern Your Lappy</option><option value="ppt">Paper Presentation</option>
+</select>.					
+					
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" onclick="return validateForm()" type="submit">You are just a click away</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div>--><!-- /container -->
+		<script>
+		
+		function validateForm() {
+    var x = document.forms["register"]["name"].value;
+	var a=document.getElementById("f1").value;
+	var b=document.getElementById("f2").value;
+	var c=document.getElementById("f3").value;
+	var d=document.getElementById("f4").value;
+	var e=document.getElementById("f5").value;
+	var f=document.getElementById("f6").value;
+	var g=document.getElementById("f7").value;
+	var h=document.getElementById("f8").value;
+	var phoneno = /^\d{10}$/;
+	if (x == "") {
+        alert("all fields must be filled out");
+        return false;
+    }
+	if(a=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(b=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(c=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(d=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(e=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(f==""||((f.value.match(phoneno)))
+	{
+	alert("enter a valid phone number");
+	return false;
+	}
+	
+	if(g=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+	if(h=="")
+	{
+	alert("all fields must be filled out");
+	return false;
+	}
+    
+	
+	
+}
+		
+		</script>
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+		<script type="text/javascript" src="../js/iframeResizer.contentWindow.min.js"></script>
+	</body>
+
+
+
+<!-- Mirrored from arista-schoolfest.000webhostapp.com/register/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2017 08:29:24 GMT -->
+</html>
